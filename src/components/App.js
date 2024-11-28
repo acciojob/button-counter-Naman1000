@@ -1,5 +1,5 @@
 
-import React,{useState} from "react";
+import React,{useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
 
-    <p>Button clicked 0 times</p>
+    <p>Button clicked {count} times</p>
     <button onClick ={onCount}>Click me</button>
     </div>
   )
